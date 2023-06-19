@@ -32,6 +32,9 @@ export async function initializeHeadlessEngine() {
       organizationId: process.env.REACT_APP_ORGANIZATION_ID!,
       accessToken: await getSearchToken(),
       renewAccessToken: getSearchToken,
+      search: {
+        searchHub: "Advanced Training Search"
+      }
     },
   });
 }

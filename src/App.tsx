@@ -17,7 +17,7 @@ export default function App() {
   const { coveoua } = useCoveoAnalytics();
 
   useEffect(() => {
-    coveoua("init", "<insert api key here>");
+    coveoua("init", "xx1ba4d6a3-35e3-4803-ad0d-12e50008e194");
   }, []);
 
   return (
